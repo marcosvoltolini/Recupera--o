@@ -1,6 +1,6 @@
 <?php
 include "../infra/conexao.php";
-$id = $_GET["id"];
+$id = (INT) $_GET["id"];
 
 $sql = "DELETE FROM Brinquedos WHERE id= ?";
 
@@ -12,5 +12,5 @@ mysqli_stmt_execute($stmt);
 
 mysqli_stmt_close($stmt);
 
-header("Location: ../index.php");
+header("Location: listar_brinquedo.php");
 exit();
