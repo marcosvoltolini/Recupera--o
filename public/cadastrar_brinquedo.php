@@ -1,7 +1,7 @@
 <?php
 include "../infra/conexao.php";
 
-$nome = $_POST["nome_brinquedo"];
+$nome = $_POST["nome"];
 $faixa = $_POST["faixa"];
 $categoria = $_POST["categoria"];
 $preco = $_POST["preco"];
