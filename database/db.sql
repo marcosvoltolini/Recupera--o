@@ -2,7 +2,7 @@ CREATE DATABASE Rec_brinquedos;
 
 USE Rec_brinquedos;
 
-CREATE  Brinquedos (
+CREATE TABLE Brinquedos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(200) NOT NULL,
     categoria VARCHAR(100),
